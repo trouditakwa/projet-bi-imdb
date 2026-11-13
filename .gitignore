@@ -1,0 +1,23 @@
+
+# Environnement Python
+.venv/
+venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+
+# Données locales
+data/raw/
+data/export/
+
+# Bases de données DuckDB
+*.duckdb
+
+# Fichiers générés par dbt
+target/
+dbt_packages/
+logs/
+
+# Configuration locale
+.env
